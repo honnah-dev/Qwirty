@@ -1,0 +1,22 @@
+.leftNav {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: prox?;
+}
+#topNav {
+  background-color: #4444bb;
+  padding: 1vw;
+
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+
+
+#topNav {
+  display: flex;
+}

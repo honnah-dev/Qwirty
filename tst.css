@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 100vh;
+    background-color: #f4f4f4;
+    /* border: solid black 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+  flex: 1;  /* lets it take leftover horizontal space */
+  max-width: 60%;     /* optional */
+  display: grid;
+  grid-template-columns: 100px 100px minmax(100px, 1fr);
+  grid-template-rows: 200px 100px 200px;
+  border: 1px solid black;
+}
+
+
+/* correct container */
+/* 
+ .container {
+  border: solid black;
+  display: grid;
+  grid-template-columns: 100px 100px minmax(100px, 1fr);
+  grid-template-rows: 200px 100px 200px;
+  width: 100%;
+  max-width: 60%;
+} */
+
+
+
+.container div {
+  border: solid black;
+  background-color: coral;
+  color: white;
+  padding: 2rem;
+
+}
+/* 
+.container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    padding: 1px;
+    border: solid black 5px;
+} */
