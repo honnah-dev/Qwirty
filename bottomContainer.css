@@ -1,0 +1,51 @@
+.bottomContainer {
+  padding: 1rem;  
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+h1 {
+  margin: 0;
+  color: #4444bb;
+  font-weight: 400;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+
+
+
+
+form {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+input {
+  flex: 1;
+  min-width: 150px;
+  padding: .5rem;
+  border: none;
+  border-bottom: #4444bb solid 1px;
+}
+
+button {
+  background-color: #4444bb;
+  border: #4444bb solid 1.5px;
+}
+
+
+
+
+
+
+
+
+#financingLink {
+  /* white-space: nowrap; prevent breaking into 2 lines */
+
+  background-color: rgb(212, 8, 8);
+  
+}
